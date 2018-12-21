@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Microsoft.AspNetCore.Mvc.Views.TestCommon\Microsoft.AspNetCore.Mvc.Views.TestCommon.csproj" />
-    <ProjectReference Include="..\Microsoft.AspNetCore.Mvc.TestDiagnosticListener\Microsoft.AspNetCore.Mvc.TestDiagnosticListener.csproj" />
+    <Reference Include="Microsoft.AspNetCore.Mvc.Views.TestCommon" />
+    <Reference Include="Microsoft.AspNetCore.Mvc.TestDiagnosticListener" />
   </ItemGroup>
 </Project>

@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Microsoft.AspNetCore.Mvc.Razor\Microsoft.AspNetCore.Mvc.Razor.csproj" />
+    <Reference Include="Microsoft.AspNetCore.Mvc.Razor" />
   </ItemGroup>
 
 </Project>
